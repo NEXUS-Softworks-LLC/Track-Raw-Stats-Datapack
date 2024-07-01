@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:lush_caves"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/biome/lush_caves"
+  }
+}

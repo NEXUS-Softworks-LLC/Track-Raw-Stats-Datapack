@@ -1,0 +1,34 @@
+{
+    "criteria": {
+      "fortified_village": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:fortified_village"
+            }
+          }
+        }
+      },
+      "fortified_desert_village": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "minecraft:fortified_desert_village"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "fortified_village",
+        "fortified_desert_village"
+      ]
+    ],
+    "rewards": {
+      "function": "track_raw_stats:trackadv/location/terralith/structure/fortified_village"
+    }
+  }
+  

@@ -1,0 +1,45 @@
+{
+    "criteria": {
+      "lush_desert": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:lush_desert"
+            }
+          }
+        }
+      },
+      "desert_canyon": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:desert_canyon"
+            }
+          }
+        }
+      },
+      "desert_oasis": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:desert_oasis"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "lush_desert",
+        "desert_canyon",
+        "desert_oasis"
+      ]
+    ],
+    "rewards": {
+      "function": "track_raw_stats:trackadv/location/terralith/biome/desert"
+    }
+  }
+  

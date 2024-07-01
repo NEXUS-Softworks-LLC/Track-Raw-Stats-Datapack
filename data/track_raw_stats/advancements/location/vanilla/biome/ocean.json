@@ -1,0 +1,110 @@
+{
+  "criteria": {
+    "ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:ocean"
+          }
+        }
+      }
+    },
+    "deep_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:deep_ocean"
+          }
+        }
+      }
+    },
+    "cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:cold_ocean"
+          }
+        }
+      }
+    },
+    "deep_cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:deep_cold_ocean"
+          }
+        }
+      }
+    },
+    "warm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:warm_ocean"
+          }
+        }
+      }
+    },
+    "lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:lukewarm_ocean"
+          }
+        }
+      }
+    },
+    "deep_lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:deep_lukewarm_ocean"
+          }
+        }
+      }
+    },
+    "frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:frozen_ocean"
+          }
+        }
+      }
+    },
+    "deep_frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:deep_frozen_ocean"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ocean",
+      "deep_ocean",
+      "cold_ocean",
+      "deep_cold_ocean",
+      "warm_ocean",
+      "lukewarm_ocean",
+      "deep_lukewarm_ocean",
+      "frozen_ocean",
+      "deep_frozen_ocean"
+    ]
+  ],
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/biome/ocean"
+  }
+}

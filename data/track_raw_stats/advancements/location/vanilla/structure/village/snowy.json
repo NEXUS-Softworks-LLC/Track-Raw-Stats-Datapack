@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:village_snowy"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/structure/village/snowy"
+  }
+}

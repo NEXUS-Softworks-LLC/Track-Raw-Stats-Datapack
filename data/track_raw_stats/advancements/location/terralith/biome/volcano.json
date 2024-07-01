@@ -1,0 +1,34 @@
+{
+    "criteria": {
+      "volcanic_peaks": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:volcanic_peaks"
+            }
+          }
+        }
+      },
+      "volcanic_crater": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:volcanic_crater"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "volcanic_peaks",
+        "volcanic_crater"
+      ]
+    ],
+    "rewards": {
+      "function": "track_raw_stats:trackadv/location/terralith/biome/volcano"
+    }
+  }
+  

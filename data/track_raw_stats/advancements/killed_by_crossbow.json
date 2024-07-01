@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:killed_by_crossbow"
+      }
+    },
+    "rewards": {
+      "function": "track_raw_stats:trackadv/killed_by_crossbow"
+    }
+  }

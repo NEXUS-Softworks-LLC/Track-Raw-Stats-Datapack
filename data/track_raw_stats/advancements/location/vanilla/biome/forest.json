@@ -1,0 +1,77 @@
+{
+  "criteria": {
+    "forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:forest"
+          }
+        }
+      }
+    },
+    "flower_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:flower_forest"
+          }
+        }
+      }
+    },
+    "birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:birch_forest"
+          }
+        }
+      }
+    },
+    "dark_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:dark_forest"
+          }
+        }
+      }
+    },
+    "windswept_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:windswept_forest"
+          }
+        }
+      }
+    },
+    "old_growth_birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:old_growth_birch_forest"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "forest",
+      "flower_forest",
+      "birch_forest",
+      "dark_forest",
+      "old_growth_birch_forest",
+      "windswept_forest"
+    ]
+  ],
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/biome/forest"
+  }
+}

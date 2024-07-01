@@ -1,0 +1,1 @@
+execute unless data storage track_raw_stats:data {PackVersion:"0.4"} run function track_raw_stats:load_first_time

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:started_riding"
+      }
+    },
+    "rewards": {
+      "function": "track_raw_stats:trackadv/started_riding"
+    }
+  }

@@ -1,0 +1,55 @@
+{
+  "criteria": {
+    "cold_shrubland": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "terralith:cold_shrubland"
+          }
+        }
+      }
+    },
+    "hot_shrubland": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:hot_shrubland"
+          }
+        }
+      }
+    },
+    "rocky_shrubland": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "terralith:rocky_shrubland"
+          }
+        }
+      }
+    },
+    "shrubland": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "terralith:shrubland"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cold_shrubland",
+      "hot_shrubland",
+      "rocky_shrubland",
+      "shrubland"
+    ]
+  ],
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/terralith/biome/shrubland"
+  }
+}

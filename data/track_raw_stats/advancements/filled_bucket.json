@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "fill_bucket": {
+        "trigger": "minecraft:filled_bucket",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:water_bucket",
+              "minecraft:lava_bucket"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "track_raw_stats:trackadv/filled_bucket"
+    }
+  }

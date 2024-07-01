@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:jungle"
+          }
+        }
+      }
+    },
+    "sparse_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:sparse_jungle"
+          }
+        }
+      }
+    },
+    "bamboo_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:bamboo_jungle"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jungle",
+      "sparse_jungle",
+      "bamboo_jungle"
+    ]
+  ],
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/biome/jungle"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:mangrove_swamp"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/biome/mangrove_swamp"
+  }
+}

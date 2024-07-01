@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:plains"
+          }
+        }
+      }
+    },
+    "sunflower_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:sunflower_plains"
+          }
+        }
+      }
+    },
+    "snowy_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:snowy_plains"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "plains",
+      "sunflower_plains",
+      "snowy_plains"
+    ]
+  ],
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/biome/plains"
+  }
+}

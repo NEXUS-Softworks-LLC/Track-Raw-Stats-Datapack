@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension"
+      }
+    },
+    "rewards": {
+      "function": "track_raw_stats:trackadv/changed_dimension"
+    }
+  }

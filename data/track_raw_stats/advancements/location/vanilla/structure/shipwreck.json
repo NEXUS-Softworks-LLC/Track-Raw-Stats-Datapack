@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "shipwreck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:shipwreck"
+          }
+        }
+      }
+    },
+    "shipwreck_beached": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:shipwreck_beached"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shipwreck_beached",
+      "shipwreck"
+    ]
+  ],
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/structure/shipwreck"
+  }
+}

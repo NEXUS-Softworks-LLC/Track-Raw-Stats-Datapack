@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:pillager_outpost"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/structure/pillager_outpost"
+  }
+}

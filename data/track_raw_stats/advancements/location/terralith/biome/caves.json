@@ -1,0 +1,166 @@
+{
+    "criteria": {
+      "andesite_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/andesite_caves"
+            }
+          }
+        }
+      },
+      "desert_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/desert_caves"
+            }
+          }
+        }
+      },
+      "diorite_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/diorite_caves"
+            }
+          }
+        }
+      },
+      "fungal_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/fungal_caves"
+            }
+          }
+        }
+      },
+      "granite_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/granite_caves"
+            }
+          }
+        }
+      },
+      "ice_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/ice_caves"
+            }
+          }
+        }
+      },
+      "infested_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/infested_caves"
+            }
+          }
+        }
+      },
+      "thermal_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/thermal_caves"
+            }
+          }
+        }
+      },
+      "underground_jungle": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/underground_jungle"
+            }
+          }
+        }
+      },
+      "crystal_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/crystal_caves"
+            }
+          }
+        }
+      },
+      "deep_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/deep_caves"
+            }
+          }
+        }
+      },
+      "frostfire_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/frostfire_caves"
+            }
+          }
+        }
+      },
+      "mantle_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/mantle_caves"
+            }
+          }
+        }
+      },
+      "tuff_caves": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:cave/tuff_caves"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "andesite_caves",
+        "desert_caves",
+        "diorite_caves",
+        "fungal_caves",
+        "granite_caves",
+        "ice_caves",
+        "infested_caves",
+        "thermal_caves",
+        "underground_jungle",
+        "crystal_caves",
+        "deep_caves",
+        "frostfire_caves",
+        "mantle_caves",
+        "tuff_caves"
+      ]
+    ],
+    "rewards": {
+      "function": "track_raw_stats:trackadv/location/terralith/biome/caves"
+    }
+  }
+  

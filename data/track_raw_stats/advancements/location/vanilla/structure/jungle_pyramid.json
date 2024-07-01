@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:jungle_pyramid"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/structure/jungle_pyramid"
+  }
+}

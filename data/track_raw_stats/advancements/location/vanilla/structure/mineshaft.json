@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:mineshaft"
+          }
+        }
+      }
+    },
+    "mineshaft_mesa": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:mineshaft_mesa"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mineshaft_mesa",
+      "mineshaft"
+    ]
+  ],
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/structure/mineshaft"
+  }
+}

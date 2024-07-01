@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:target_hit"
+      }
+    },
+    "rewards": {
+      "function": "track_raw_stats:trackadv/target_hit"
+    }
+  }

@@ -1,0 +1,67 @@
+{
+    "criteria": {
+      "skylands": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:skylands"
+            }
+          }
+        }
+      },
+      "skylands_spring": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:skylands_spring"
+            }
+          }
+        }
+      },
+      "skylands_summer": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:skylands_summer"
+            }
+          }
+        }
+      },
+      "skylands_winter": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:skylands_winter"
+            }
+          }
+        }
+      },
+      "skylands_autumn": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:skylands_autumn"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "skylands",
+        "skylands_spring",
+        "skylands_summer",
+        "skylands_winter",
+        "skylands_autumn"
+      ]
+    ],
+    "rewards": {
+      "function": "track_raw_stats:trackadv/location/terralith/biome/skylands"
+    }
+  }
+  

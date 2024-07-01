@@ -1,0 +1,34 @@
+{
+    "criteria": {
+      "amethyst_canyon": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:amethyst_canyon"
+            }
+          }
+        }
+      },
+      "amethyst_rainforest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:amethyst_rainforest"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "amethyst_canyon",
+        "amethyst_rainforest"
+      ]
+    ],
+    "rewards": {
+      "function": "track_raw_stats:trackadv/location/terralith/biome/amethyst"
+    }
+  }
+  

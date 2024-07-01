@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biome": "terralith:underground/sunken_tower"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "track_raw_stats:trackadv/location/terralith/structure/sunken_tower"
+    }
+  }
+  

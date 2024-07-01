@@ -1,0 +1,66 @@
+{
+  "criteria": {
+    "village_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:village_plains"
+          }
+        }
+      }
+    },
+    "village_desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:village_desert"
+          }
+        }
+      }
+    },
+    "village_savanna": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:village_savanna"
+          }
+        }
+      }
+    },
+    "village_snowy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:village_snowy"
+          }
+        }
+      }
+    },
+    "village_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:village_taiga"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "village_plains",
+      "village_desert",
+      "village_savanna",
+      "village_snowy",
+      "village_taiga"
+    ]
+  ],
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/structure/village"
+  }
+}

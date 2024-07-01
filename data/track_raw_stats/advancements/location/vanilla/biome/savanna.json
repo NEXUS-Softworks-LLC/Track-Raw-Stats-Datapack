@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "savanna": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:savanna"
+          }
+        }
+      }
+    },
+    "savanna_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:savanna_plateau"
+          }
+        }
+      }
+    },
+    "windswept_savanna": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:windswept_savanna"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "savanna",
+      "savanna_plateau",
+      "windswept_savanna"
+    ]
+  ],
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/biome/savanna"
+  }
+}

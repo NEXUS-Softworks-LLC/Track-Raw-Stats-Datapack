@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "warped_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:warped_forest"
+          }
+        }
+      }
+    },
+    "crimson_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:crimson_forest"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "warped_forest",
+      "crimson_forest"
+    ]
+  ],
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/biome/nether_forest"
+  }
+}

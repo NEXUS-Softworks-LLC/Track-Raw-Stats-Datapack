@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:badlands"
+          }
+        }
+      }
+    },
+    "eroded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:eroded_badlands"
+          }
+        }
+      }
+    },
+    "wooded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:wooded_badlands"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "badlands",
+      "eroded_badlands",
+      "wooded_badlands"
+    ]
+  ],
+  "rewards": {
+    "function": "track_raw_stats:trackadv/location/vanilla/biome/badlands"
+  }
+}
